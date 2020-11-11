@@ -1,0 +1,191 @@
+
+body{
+
+text-align: left;
+background: #f7f7f7;
+}
+h1
+{
+
+color: rgb(247 247 247);
+text-shadow: 4px 4px 4px #250404;
+font-size: 2em;
+}
+h2
+{
+color: rgb(255 37 0);
+font-size: 2em;
+font-family:cursive;
+text-align:center;
+text-shadow: 0px 4px 0px #b19090;
+margin-bottom: 40px;
+}
+h3
+{
+
+    color: #e93b1d;
+    
+
+}
+}
+image{
+     margin-bottom: 5px;
+
+
+}
+table, td {
+  
+    border-collapse: collapse;
+  }
+   td {
+    padding: 5px;
+    text-align: left;    
+  }
+  .center {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*Navigation section */
+
+#navigation {
+      
+    width: 100%;
+    margin-top: none;
+
+
+
+}
+
+/*Home section */
+
+#home{
+    background: no-repeat url(../images/fuel_station.jpg);
+    background-size:cover;
+    min-height: 500px;
+    margin-bottom:50px;
+   
+
+}
+    .container{
+        
+        margin: 10px 0;
+        width: 100%;      
+    
+    
+    }
+    .row{
+     
+    }
+    .col-sm-4{
+        text-align: left;
+        margin-top:20px;
+      
+    
+    }
+    .col-sm-8{
+        text-align: left;
+        margin-top:100px;
+        color:whitesmoke;
+        font-size:20px;
+        font-family:system-ui;
+      
+    
+    }
+
+    /*Products/services section */
+
+#services{
+    min-height: 500px;    
+
+}
+ .wrap_services {
+    background-color: rgb(251 248 248);
+    border-radius: 10px;
+    padding: 20px;
+    margin:  auto;
+    width: 90%;
+      }
+
+ /*Guide section */
+#how_it_works{
+    min-height: 500px;
+
+}
+.wrap {
+    background-color: rgb(243 234 234);
+    border-radius: 10px;
+    padding: 20px;
+    margin:  auto;
+    width: 90%;
+      }
+
+
+ /*about section */
+#about{
+    
+    min-height: 500px;
+
+
+}
+
+ /*Footer section */
+#contact{
+    background: #ffe6e2;
+    text-align:center;
+    min-height: auto;
+  
+  
+}
+
+.navbar{
+
+background: #ce2115;
+text-align: center;
+
+}
+.navbar-nav{
+    width:100%;
+    list-style: none;
+    margin: 5px 5px;
+    display: block;                       
+   }
+.nav-item {
+    float: left;
+    padding: 0 10px;
+    margin: 0 4px;
+   
+   
+    }
+.nav-link {
+    text-decoration: none;                
+    color: mediumvioletred;
+    font-weight: bolder;
+    
+  }
+.nav-item active{
+    border-bottom: 3px solid white;
+    color: skyblue;
+    }
+
+a:hover{
+
+    text-decoration: none;
+    color: #ce2115;
+}
+
+.clear{
+    clear: both;
+      }
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+}
+}
+
